@@ -82,11 +82,13 @@ nav ul li a:hover{
     height: 34.5rem;
     width: auto; 
 }
-.xline{
-    display: flex;
-    justify-content: center;
+.line2{
+    display: grid;
+    grid-template: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.sysRequirement{
+.systemReq{
     display: flex;
     line-height: 1.4;
     flex-direction: column;
@@ -104,7 +106,52 @@ nav ul li a:hover{
     font-weight: 500;
     padding: 1.3rem 0;
 }
-.sysRequirement .paratext{
+.systemReq .paratext{
     font-size: 1.11rem;
     word-spacing: 1.3;
 }
+footer{
+    background: #f5f5f7;
+    text-align: start;
+}
+footer h3{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-right: 1rem;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a:not(.paraFoot a){
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #333;
+}
+.paraFoot{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.paraFoot a{
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.footer-nav{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+.copyText{
+    font-size: 0.75rem;
+    color: #333;
+}
+.listNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listNav li:not(.noBorder){
+   border-right: 1px solid #333;
+}
+.listNav li{
+    padding:0 1.5rem;
+ }
