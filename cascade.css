@@ -122,6 +122,9 @@ footer h3{
 footer ul{
     list-style-type: none;
 }
+footer ul a:hover{
+    border-bottom: 0.5px solid rgba(14, 13, 13, 0.4);
+}
 footer a:not(.paraFoot a){
     font-size: 0.75rem;
     text-decoration: none;
@@ -134,6 +137,9 @@ footer a:not(.paraFoot a){
 .paraFoot a{
     font-size: 0.8rem;
     text-decoration: none;
+}
+.paraColor:hover{
+    border-bottom: 0.1px solid;
 }
 .footer-nav{
     display: flex;
@@ -150,7 +156,7 @@ footer a:not(.paraFoot a){
     justify-content: center;
 }
 .listNav li:not(.noBorder){
-   border-right: 1px solid #333;
+   border-right: 0.1px solid rgb(3, 3, 3, 0.2);
 }
 .listNav li{
     padding:0 1.5rem;
